@@ -1,0 +1,4 @@
+/** Fixed image thumb width **/
+.t3-page-ce img {
+    width: 100%;
+}

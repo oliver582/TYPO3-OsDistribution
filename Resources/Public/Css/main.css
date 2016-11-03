@@ -1,0 +1,366 @@
+body {
+  background-color: #f0f0f0;
+}
+
+.h1, h1 {
+    font-size: 30px;
+}
+.h3, h3 {
+    font-size: 30px;
+}
+.h4, h4 {
+    font-size: 30px;
+}
+
+header {
+  height: 120px;
+  background-color: #459ad3;
+}
+header .brand {
+    margin: 30px 0;
+    display: inherit;
+    font-weight: 600;
+}
+header .list-usp .fa {
+    float: left;
+    font-size: 2.2rem;
+    margin-right: 10px;
+}
+header .list-usp {
+    font-size: 0.75rem;
+    margin: 30px 0 30px 0;
+}
+header .list-usp > li {
+    margin-left: 20px;
+}
+header .list-usp strong {
+    font-size: 0.875rem;
+}
+
+.navbar {
+  background-color: #37444e;
+  border: none;
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: #1d2429;
+}
+
+.navbar-brand {
+    font-weight: 500;
+}
+
+.navbar-nav li:hover {
+  background-color: #495965;
+}
+.navbar-nav li a:hover {
+  color: #1d2429;
+}
+
+
+
+
+#content > .container {
+  background-color: #fff;
+  padding: 25px 15px;
+  min-height: 660px;
+}
+
+#sidebar .widget {
+    background-color: rgb(250, 250, 250);
+    background-color: rgba(250,250,250,1);
+    border: 1px solid #eee;
+    margin-bottom: 55px;
+}
+#sidebar .widget .h1 {
+    color: #ffffff;
+    background-color: #37444e;
+    background: -moz-linear-gradient(top, #37444e 0%, #37444e 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#37444e), color-stop(100%,#37444e));
+    background: -webkit-linear-gradient(top, #37444e 0%,#37444e 100%);
+    background: -o-linear-gradient(top, #37444e 0%,#37444e 100%);
+    background: -ms-linear-gradient(top, #37444e 0%,#37444e 100%);
+    background: linear-gradient(to bottom, #37444e 0%,#37444e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37444e', endColorstr='#37444e',GradientType=0 );
+}
+.widget .h1 {
+    font-size: 19px;
+    font-weight: 300;
+    margin: -1px -1px 0 -1px;
+    padding: 10px;
+}
+#sidebar .widget .textwidget, #sidebar .widget .filterform label, #sidebar .widget .filterform .control-label, #sidebar .widget_calendar #wp-calendar th, #sidebar .widget_calendar #wp-calendar caption, #sidebar .widget label.screen-reader-text, #sidebar .widget_amazon_cart .price-sum {
+    color: #6f7479;
+}
+
+#sidebar .widget a:not(.btn), .thumbnail[class*="product-"] .product-title {
+    color: #101820;
+}
+
+
+.sidebar .widget {
+    background-color: rgb(250, 250, 250);
+    background-color: rgba(250,250,250,1);
+    border: 1px solid #eee;
+    margin-bottom: 55px;
+}
+.sidebar .widget .h1 {
+    color: #ffffff;
+    background-color: #37444e;
+    background: -moz-linear-gradient(top, #37444e 0%, #37444e 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#37444e), color-stop(100%,#37444e));
+    background: -webkit-linear-gradient(top, #37444e 0%,#37444e 100%);
+    background: -o-linear-gradient(top, #37444e 0%,#37444e 100%);
+    background: -ms-linear-gradient(top, #37444e 0%,#37444e 100%);
+    background: linear-gradient(to bottom, #37444e 0%,#37444e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37444e', endColorstr='#37444e',GradientType=0 );
+}
+.sidebar .widget .textwidget, #sidebar .widget .filterform label, #sidebar .widget .filterform .control-label, #sidebar .widget_calendar #wp-calendar th, #sidebar .widget_calendar #wp-calendar caption, #sidebar .widget label.screen-reader-text, #sidebar .widget_amazon_cart .price-sum {
+    color: #6f7479;
+}
+
+.sidebar .widget a:not(.btn), .thumbnail[class*="product-"] .product-title {
+    color: #101820;
+}
+
+.thumbnail[class*="product-"] .product-title {
+    margin: 0;
+    font-weight: 400;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 25px;
+}
+.thumbnail[class*="product-"] div[class^="img-"][class$="-wrapper"] {
+    display: table-cell;
+    vertical-align: middle;
+    display:block;
+   margin-left:auto;
+   margin-right:auto;
+}
+.product-grid .img-grid-wrapper {
+    height: 262px;
+}
+.product-grid .img-grid-wrapper, .product-grid .img-grid-wrapper a img {
+    max-height: 262px;
+}
+.product-price .price {
+    color: #5eac5a;
+}
+.product-price .price {
+  font-weight: 300;
+  font-size: 28px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.thumbnail[class*="product-"] {
+    border-radius: 0;
+    padding: 0;
+    border: none;
+    border: 1px solid #f0f0f0;
+    box-shadow: none;
+    position: relative;
+}
+.product-grid hr {
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+.product-price .price-hint {
+    color: #9fa2a5;
+}
+.product-price .price-hint {
+    font-size: 10px;
+}
+.product-grid .btn {
+  margin-top: 15px;
+}
+.product-rating {
+    color: #9fa2a5 !important;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.btn-default {
+  background-color: #e0e0e0;
+}
+
+.widget_product_advice .thumbnail[class*="product-"] {
+    background: none;
+    margin: 0;
+    border: none;
+}
+
+.thumbnail[class*="product-"] .badge-at {
+    position: absolute;
+    top: 20px;
+    right: -7px;
+    margin: 0;
+}
+.badge-at {
+    background: #5eac5a;
+}
+.badge-at {
+    border-radius: 3px;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 3px 5px;
+    margin-top: 5px;
+    display: inline-block;
+    z-index: 1;
+}
+
+.img-grid-wrapper img {
+  max-height: 225px;
+  width: inherit;
+}
+
+.fa-star {
+    color: #f3961d;
+}
+.star-color-mt {
+  color: #ccc !important;
+}
+
+
+.btn-content-large {
+  width: 80%;
+  margin: 5% 10%;
+  font-weight: 300;
+  font-size: large;
+}
+
+
+
+.bg-gray {
+    background-color: #ccc;
+    width: 100%;
+}
+
+footer {
+    background-color: #37444e;
+    color: #fff;
+    min-height: 250px;
+}
+
+footer .container {
+    padding-top: 25px;
+}
+
+
+
+.product-buybox {
+    background: #fafafa;
+    border: 2px solid #eee;
+    padding: 10px;
+}
+#productGallery .carousel-inner .item .img-wrapper .img-wrapper-inner img {
+    max-height: 360px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+#productGallery .carousel-inner .item .img-wrapper {
+    height: 360px;
+    max-height: 360px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+#productGallery .carousel-inner {
+    border: 1px solid #f0f0f0;
+}
+#productGallery .carousel-control {
+    background: none !important;
+}
+#productGallery .carousel-indicators {
+    position: relative;
+    bottom: -15px;
+    left: 0;
+    margin: 0px 0 0 0;
+    width: 100%;
+}
+#productGallery .carousel-indicators {
+    position: relative;
+    bottom: -15px;
+    left: 0;
+    margin: 0px 0 0 0;
+    width: 100%;
+}
+#productGallery .carousel-indicators img {
+    border: none;
+    padding: 0;
+    float: left;
+    height: 50px;
+    left: 0;
+    width: 50px;
+    opacity: 0.5;
+}
+#productGallery .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+}
+#product-details .product-price .price {
+    font-weight: 300;
+    font-size: 38px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.progress-bar {
+    background-color: #459ad3;
+}
+
+.product-reviews-procentual .rating-summary {
+    text-align: center;
+    margin: 0;
+}
+.product-reviews-procentual .rating-summary .summary-header {
+    background: #459ad3;
+}
+.product-reviews-procentual .rating-summary .summary-header {
+  background: #459ad3;
+  border-radius: 5px 5px 0 0;
+  padding: 10px 5px 1px 5px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.product-reviews-procentual .rating-summary .summary-detail {
+  padding: 14px 5px 5px 5px;
+  border-left: 1px solid #f0f0f0;
+  border-right: 1px solid #f0f0f0;
+  font-style: italic;
+  font-size: 30px;
+}
+.product-reviews-procentual .rating-summary .summary-footer {
+  background: #fafafa;
+  border-radius: 0 0 5px 5px;
+  padding: 7px 5px 0px 5px;
+  color: #9fa2a5;
+  border: 1px solid #f0f0f0;
+}
+
+
+
+
+ul.nav li.dropdown:hover ul.dropdown-menu{
+	display: block;
+	margin-top:0px
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #495965;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    color: #fff;
+    background-color: #495965;
+}
+.dropdown-menu>li>a {
+    padding: 8px 20px;
+}

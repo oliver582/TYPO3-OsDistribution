@@ -1,0 +1,39 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "",
+        "emConf": {
+            "category": "distribution",
+            "custom_category": "",
+            "dependsOn": "typo3 => 7.6.0-7.9.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "beta",
+            "targetVersion": "7.6.0-7.6.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "typo3_os_distribution",
+        "name": "WebDevPro Distribution",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "WebDevPro",
+                "email": "",
+                "name": "Oliver Seiffert",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "Typo3OsDistribution"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2016-08-21 01:22",
+        "extension_builder_version": "7.6.0",
+        "be_user": " (1)"
+    }
+}
